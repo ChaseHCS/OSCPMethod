@@ -38,6 +38,15 @@ Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*" |
 
 Get-Process
 
+dir s/b/ *.log
+
+dir s/b/ *.txt
+
+$his = (Get-PSReadlineOption).HistorySavePath
+
+cat $his
+
+
 SERVICE BINARY HIJACKING
 
 Get-CimInstance -ClassName win32_service | Select Name,State,PathName | Where-Object {$_.State -like 'Running'} -- Look for any files running out of directories that you have write privs.
