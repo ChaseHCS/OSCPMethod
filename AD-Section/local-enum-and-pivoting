@@ -50,9 +50,9 @@ Get-Process
 
 FOR EVERY USER
 
-dir s/b/ *.log
+C:\user\penis> dir s/b/ *.log
 
-dir s/b/ *.txt
+C:\user\penis> dir s/b/ *.txt
 
 $his = (Get-PSReadlineOption).HistorySavePath
 
