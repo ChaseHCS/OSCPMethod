@@ -48,6 +48,8 @@ Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*" |
 
 Get-Process
 
+FOR EVERY USER
+
 dir s/b/ *.log
 
 dir s/b/ *.txt
